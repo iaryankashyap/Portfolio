@@ -35,3 +35,25 @@ nav{
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.096);
     
 }
+
+.card{
+    border: none !important;
+}
+
+.card-body{
+    background-color: rgba(126, 126, 126, 0.062);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.096);
+    transition: ease-in-out 0.3s;
+}
+
+.card-body:hover{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.199);
+}
+
+#aryan{
+    transition: ease-in-out 0.2s;
+}
+
+#aryan:hover{
+    color: #009dff;
+}
