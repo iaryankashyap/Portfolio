@@ -38,11 +38,12 @@ nav{
 
 .card{
     border: none !important;
+    margin-right: 10px;
 }
 
 .card-body{
     background-color: rgba(126, 126, 126, 0.062);
-    
+    margin-bottom: 20px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.199);
     transition: ease-in-out 0.3s;
 }
@@ -57,4 +58,25 @@ nav{
 
 #aryan:hover{
     color: #009dff;
+}
+
+.pro{
+    
+    margin-top: 20px;
+}
+
+.border{
+    margin-bottom: 30px;
+}
+.btn{
+    background-color: blue !important;
+}
+
+i{
+    color: #009dff;
+    transition: ease-in-out 0.2s;
+}
+
+i:hover{
+    color: chocolate;
 }
