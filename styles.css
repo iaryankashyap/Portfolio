@@ -68,9 +68,7 @@ nav{
 .border{
     margin-bottom: 30px;
 }
-.btn{
-    background-color: blue !important;
-}
+
 
 i{
     color: #009dff;
@@ -79,4 +77,21 @@ i{
 
 i:hover{
     color: chocolate;
+}
+
+.links{
+    color: chocolate;
+    font-weight: bold;
+    text-decoration: none;
+    transition: ease-in-out 0.2s;
+}
+
+.links:hover{
+    text-decoration: none;
+    color: #009dff;
+}
+
+.al{
+    text-align: center;
+    margin-bottom: 30px;
 }
