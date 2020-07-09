@@ -123,7 +123,6 @@ i:hover{
     bottom: 20px;
     transition: ease-in-out 0.25s;
     animation: myy;
-    animation-delay: 1s;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
