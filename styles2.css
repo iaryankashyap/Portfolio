@@ -16,7 +16,7 @@ body{
 }
 
 nav{
-    background-color: #303030 !important;
+    background-color: rgba(0, 0, 0, 0.897) !important;
     box-shadow: 0px 0px 10px -3px rgba(255, 255, 255, 0.527) ;
 }
 
