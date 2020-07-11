@@ -13,10 +13,34 @@ function theme(){
     var elem=x[0]
     if(mode=="light"){
         elem.innerHTML=`<link rel="stylesheet" href="styles2.css">`;
+        document.getElementsByClassName('navbar')[0].innerHTML=`
+        <a id="aryan" class="navbar-brand" href="#">
+        <img id="gg"
+          src="avatar2.png"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+          loading="lazy"
+        />
+        Aryan Kashyap
+      </a>`
         mode="dark";
     }
     else{
         elem.innerHTML=`<link rel="stylesheet" href="styles.css">`;
+        document.getElementsByClassName('navbar')[0].innerHTML=`
+        <a id="aryan" class="navbar-brand" href="#">
+        <img id="gg"
+          src="avatar.png"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+          loading="lazy"
+        />
+        Aryan Kashyap
+      </a>`
         mode="light";
     
     }
