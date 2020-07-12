@@ -5,6 +5,33 @@ function myfunction(){
     var elem=x[0]
     elem.innerHTML=`<link rel="stylesheet" href="styles2.css">`;
     elem.innerHTML=`<link rel="stylesheet" href="styles.css">`;
+    
+    document.getElementsByClassName('navbar')[0].innerHTML=`
+        <a id="aryan" class="navbar-brand" href="#">
+        <img id="gg"
+          src="avatar2.png"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+          loading="lazy"
+        />
+        Aryan Kashyap
+      </a>`
+
+    document.getElementsByClassName('navbar')[0].innerHTML=`
+        <a id="aryan" class="navbar-brand" href="#">
+        <img id="gg"
+          src="avatar.png"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+          loading="lazy"
+        />
+        Aryan Kashyap
+      </a>`
+
     preloader.style.display="none";
 }
 
