@@ -36,6 +36,7 @@ nav{
     border-radius: 0;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.062);
+    border: 1px solid rgba(255, 255, 255, 0.322);
     box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.164);
     
 }
