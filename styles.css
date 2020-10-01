@@ -1,158 +1,36 @@
-*{
-    font-family: 'Comfortaa', cursive;
-}
-
 body{
-    background-color: #ecf0f1 !important;
+    background-color: white;
 }
 
-#loading{
-    width: 100%;
-    position: fixed;
-    height: 100vh;
-    background: #ecf0f1 url(loading.gif) no-repeat center;
-    z-index: 99999;
-}
-
-nav{
-    background-color: white !important;
-    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.527) ;
-}
-
-.para1{
-    font-size: 60px;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom:0 ;
-    font-weight: bolder;
-}
-
-#alert1{
-    padding: 20px;
-    margin-top: 30px;
-    font-weight: bolder;
-    margin-bottom: 30px;
-    border-radius: 0;
+.name{
     text-align: center;
-    background-color: rgba(126, 126, 126, 0.062);
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.096);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 45%;
+    left: 50%;
     
 }
 
-.card{
-    border: none !important;
-    margin-right: 10px;
-    
+h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
 }
 
-.card-body{
-    background-color: rgba(126, 126, 126, 0.062);
-    border: 1px #e5e9ea solid;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.199);
-    transition: ease-in-out 0.2s;
-}
-
-.card-body:hover{
-    box-shadow: 0px 0px 4px #009dff7c;
-    border: 1px #009dff solid;
-}
-
-#aryan{
-    transition: ease-in-out 0.2s;
-}
-
-#aryan:hover{
-    color: #009dff;
-}
-
-.pro{
-    
-    margin-top: 20px;
-}
-
-.border{
-    margin-bottom: 30px;
+img{
+    width: auto;
+    height: 200px;
 }
 
 
-i{
-    color: #009dff;
-    transition: ease-in-out 0.2s;
-}
-
-i:hover{
-    color: chocolate;
-}
-
-.links{
-    color: chocolate;
-    font-weight: bold;
-    text-decoration: none;
-    transition: ease-in-out 0.2s;
-}
-
-.links:hover{
-    text-decoration: none;
-    color: #009dff;
-}
-
-.al{
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-#git{
+h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 250;
+    font-size: 20px;
+    letter-spacing: 1px;
     color: black;
+    
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fffc5f42;
 }
-
-#floating-btn {
-    width: 0px;
-    height: 0px;
-    background-color: #009dff !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    border-radius: 50%;
-    color: white;
-    font-size: 0px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.253);
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    transition: ease-in-out 0.25s;
-    animation: myy;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-  }
-  #floating-btn:hover {
-    background-color: #0066ff !important;
-    color: white;
-    rotate: 20%;
-  }
-  
-  @keyframes myy {
-    0% {
-      width: 0px;
-      height: 0px;
-      font-size: 0px;
-    }
-    70% {
-      visibility: hidden;
-      width: 0px;
-      height: 0px;
-      font-size: 0px;
-    }
-    100% {
-      visibility: visible;
-      width: 50px;
-      height: 50px;
-      font-size: 30px;
-    }
-  }
-
-  #flow{
-      color: white !important;
-  }
